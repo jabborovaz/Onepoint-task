@@ -6,11 +6,11 @@ import logo from "../images/onpoint.PNG";
 function Main() {
   return (
     <div className="background-gradient h-screen flex flex-col justify-between overflow-auto">
-      <div className="flex flex-row items-center space-x-6 px-16 py-7">
-        <div className="pr-6 border-r-2 text-2xl m-0 border-r-black">
+      <div className="relative">
+        <div className="pr-6 border-r-2 text-2xl m-0 fixed top-7 left-16 border-r-black">
           <GrHome />
         </div>
-        <p className="text-2xl m-0">PROJECT</p>
+        <p className="text-2xl m-0 fixed top-6 left-36">PROJECT</p>
       </div>
       <div className="px-16 flex flex-col space-y-4">
         <p className="text-3xl uppercase m-0">Привет,</p>
@@ -28,8 +28,8 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="px-16 py-4">
-        <img src={logo} alt="onpoint" />
+      <div className="px-16 py-4 relative">
+        <img className="fixed left-16 bottom-3" src={logo} alt="onpoint" />
       </div>
     </div>
   );
