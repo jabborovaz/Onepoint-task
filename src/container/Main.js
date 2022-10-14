@@ -24,7 +24,7 @@ function Main() {
             <div className="text-2xl text-white bg-black m-0 p-4 rounded-full">
               <BsArrowRight />
             </div>
-            <p className="text-2xl m-0">Что дальше?</p>
+            <p className="text-2xl m-0 whitespace-nowrap">Что дальше?</p>
           </div>
         </div>
       </div>
