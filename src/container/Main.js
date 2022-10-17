@@ -11,8 +11,8 @@ function Main() {
       <div
         className={
           location.pathname == "/"
-            ? "background-gradient h-screen flex flex-col justify-between"
-            : "first-slider-gradient h-screen flex flex-col justify-between"
+            ? "background-gradient h-screen w-full flex flex-col justify-between"
+            : "first-slider-gradient h-screen w-full flex flex-col justify-between"
         }
       >
         <div className="flex flex-row items-center space-x-4 px-24 py-4">

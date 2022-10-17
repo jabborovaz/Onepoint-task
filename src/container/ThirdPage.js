@@ -54,7 +54,7 @@ function ThirdPage() {
             Brend <span className="font-bold">Xy</span>
           </p>
         </div>
-        <div className="flex flex-row space-x-6 w-1/2">
+        <div className="flex flex-row space-x-6 w-3/5">
           <div className="px-6 py-4 bg-white rounded-3xl shadow-2xl">
             <p className="text-xl m-0">
               Lorem Ipsum is therefore always free from repetition, injected
@@ -67,7 +67,7 @@ function ThirdPage() {
             </div>
             <button
               onClick={() => {
-                setModalClass("modal block");
+                setModalClass("modal block w-full h-screen");
               }}
               className="flex flex-row space-x-4 mt-4 items-center pl-4 pr-7 py-2 rounded-full bg-[#E66889] hover:cursor-pointer"
             >

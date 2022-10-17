@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 function SecondPage() {
   return (
-    <div className="px-16 flex flex-col space-y-4">
+    <div className="px-16 flex flex-col space-y-4 w-full">
       <div className="flex flex-col space-y-1">
         <p className="text-3xl uppercase m-0">Текст</p>
         <p className="text-3xl uppercase m-0">Сообщения</p>

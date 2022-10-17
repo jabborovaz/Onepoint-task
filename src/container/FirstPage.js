@@ -4,13 +4,13 @@ import { BsArrowRight } from "react-icons/bs";
 
 function FirstPage() {
   return (
-    <div className="px-16 flex flex-col space-y-4">
+    <div className="px-16 flex flex-col space-y-4 w-full">
       <p className="text-3xl uppercase m-0">Привет,</p>
       <p className="text-8xl uppercase m-0">
         Это <span className="font-bold">не</span>
       </p>
       <p className="text-8xl uppercase m-0">Коммерческое</p>
-      <div className="flex flex-row space-x-8 items-center">
+      <div className="flex flex-row space-x-6 items-center">
         <p className="text-8xl uppercase m-0">Задание</p>
         <Link
           to="/secondPage"
