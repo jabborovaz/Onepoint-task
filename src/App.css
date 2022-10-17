@@ -13,3 +13,39 @@
     #22d3ee 95%
   );
 }
+
+.first-slider-gradient {
+  background: linear-gradient(
+    to bottom left,
+    #e56ab0 2%,
+    #cffafe 25%,
+    #fff 70%,
+    #22d3ee 95%
+  );
+}
+
+.scroll-text {
+  height: 400px;
+  direction: rtl;
+}
+
+.text-direction {
+  direction: ltr;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  max-height: 20%;
+  height: 20%;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e56ab0;
+  outline: 7px solid #e56ab0;
+  border-radius: 20px;
+  height: 20px;
+}
