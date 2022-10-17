@@ -25,7 +25,7 @@
 }
 
 .scroll-text {
-  height: 400px;
+  height: 340px;
   direction: rtl;
 }
 
@@ -33,17 +33,17 @@
   direction: ltr;
 }
 
-::-webkit-scrollbar {
+.scroll-text::-webkit-scrollbar {
   width: 5px;
   max-height: 20%;
   height: 20%;
 }
 
-::-webkit-scrollbar-track {
+.scroll-text::-webkit-scrollbar-track {
   background: #000;
 }
 
-::-webkit-scrollbar-thumb {
+.scroll-text::-webkit-scrollbar-thumb {
   background: #e56ab0;
   outline: 7px solid #e56ab0;
   border-radius: 20px;
