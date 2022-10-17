@@ -15,7 +15,7 @@ function Main() {
             : "first-slider-gradient h-screen flex flex-col justify-between"
         }
       >
-        <div className="flex flex-row items-center space-x-4 px-16 py-4">
+        <div className="flex flex-row items-center space-x-4 px-24 py-4">
           <div className="pr-4 border-r-2 text-2xl m-0 border-r-black">
             <Link to="/">
               <GrHome />
@@ -24,7 +24,7 @@ function Main() {
           <p className="text-2xl m-0">PROJECT</p>
         </div>
         <Outlet />
-        <div className="px-16 py-4">
+        <div className="px-24 py-4">
           <img src={logo} alt="onpoint" />
         </div>
       </div>
